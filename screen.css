@@ -1,1 +1,133 @@
 /* Add screen styles below */
+body
+{
+    margin: 0;
+    background-color: #413C58;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Header
+{
+    position: sticky;
+    top: 0px;
+    background-color: #A3C4BC; 
+    border: 0.5vmin solid #7ea59b; 
+    color: #F2DDa4;
+    text-shadow: 0px 1px #424242, 1px 0px #424242, 0px -1px #424242, -1px 0px #424242;
+    text-align: center;
+    width: 100vw;
+    padding: 0.1vmin;
+}
+.Header:hover
+{
+    transition-duration: 0.35s;
+    font-size: 5.5vmin;
+    color:#e6be53;
+    border: 0.75vmin solid #00e4ab; 
+    z-index: 1;
+}
+h1
+{
+    font-size: 5vmin;
+}
+
+.Content
+{
+    text-align: center;
+    text-shadow: 0px 1px #424242, 1px 0px #424242, 0px -1px #424242, -1px 0px #424242;
+    margin: 0 auto;
+}
+
+h2
+{
+    border: 0.5vmin solid #a8c26c;
+    font-size: 10vmin;
+    background-color: #bfd785;
+    color: #E7EFC5;
+    margin: 0 auto;
+    padding: 2vmin;
+}
+
+#Photo_gallery
+{
+    padding-top: 3vmin;
+    background-color: #E7EFC5;
+    display: flex;
+    gap: 2vmin;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#Photo_gallery img
+{
+    border: 1vmin solid #413C58;
+    border-radius: 25rem;
+    background-color: #F2DDa4;
+    width: 40vmin;
+    height: 56vmin;
+    object-fit: cover;
+    object-position: center;
+}
+
+#Photo_gallery img:Hover
+{
+    transition-duration: 0.35s;
+    border: 1.25vmin solid #3f2e8f;
+    width: 50vmin;
+    height: 66vmin;
+    border-radius: 5rem;
+    object-fit: contain;
+}
+
+.Photo_information
+{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 2vmin;
+    padding-bottom: 10vmin;
+    padding-left: 5vmin;
+    padding-right: 5vmin;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    gap: 2vmin;
+}
+
+.Photo_information img
+{
+    background-color: #F2DDa4;
+    border-radius: 2rem;
+    border: 0.75vmin solid #A3C4BC;
+    width: 50vmin;
+    height: 66vmin;
+    object-fit: cover;
+    flex: 2;
+}
+.Photo_information img:hover
+{
+    transition-duration: 0.35s;
+    border-radius: 2rem;
+    border: 0.75vmin solid #69c7af;
+    height: 71vmin;
+    object-fit: contain;
+}
+
+.Information_text
+{
+    background-color: #3b3944;
+    border-radius: 2rem;
+    border: 0.75vmin solid #A3C4BC;
+    padding: 2vmin;
+    height: 66vmin;
+    width: 25vmin;
+    font-size: 3vmax;
+    overflow-y: scroll;
+    text-align: center;
+    flex: 1;
+}
+.Information_text:hover
+{
+    transition-duration: 0.35s;
+    border: 0.75vmin solid #69c7af;
+    height: 70vmin;
+}
