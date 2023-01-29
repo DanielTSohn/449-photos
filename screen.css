@@ -8,6 +8,7 @@ body
 
 .Header
 {
+    transition-duration: 0.35s;
     position: sticky;
     top: 0px;
     background-color: #A3C4BC; 
@@ -60,6 +61,7 @@ h2
 
 #Photo_gallery img
 {
+    transition-duration: 0.35s;
     border: 1vmin solid #413C58;
     border-radius: 25rem;
     background-color: #F2DDa4;
@@ -95,6 +97,7 @@ h2
 
 .Photo_information img
 {
+    transition-duration: 0.35s;
     background-color: #F2DDa4;
     border-radius: 2rem;
     border: 0.75vmin solid #A3C4BC;
@@ -114,6 +117,7 @@ h2
 
 .Information_text
 {
+    transition-duration: 0.35s;
     background-color: #3b3944;
     border-radius: 2rem;
     border: 0.75vmin solid #A3C4BC;
